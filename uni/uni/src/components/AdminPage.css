@@ -1,0 +1,120 @@
+#AdminBody {
+	margin-left: 100px;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	min-width: 1320px;
+}
+
+#UserListHeader, #OverallStatsHeader{
+	float:left;
+	margin-top: 100px;
+	width: 200px;
+	text-decoration: underline;
+}
+
+#UserForm {
+	display: inline-block;
+}
+#UserForm input, #EventAddForm input{
+	margin-right: 5px;
+}
+
+#UserList{
+	float: left;
+	margin-top: 30px;
+	border-collapse: collapse;
+	border: 1px solid black;
+	overflow: auto;
+	/* height: 400px; */
+	max-height: 400px;
+	width: 700px;
+}
+
+#UserList td, #UserList th, #AdminEventList td, #AdminEventList th,
+#OverallStatsTable td, #OverallStatsTable th{
+	/* height: 30px; */
+	max-height: 30px;
+	border: 1px solid black;
+}
+
+#UserList th, #AdminEventList th, #OverallStatsTable th {
+	background-color: pink;
+  	color: white;
+}
+
+#AdminEventList{
+	margin-top: 30px;
+	float: left;
+	position: relative;
+	border-collapse: collapse;
+	border: 1px solid black;
+	overflow: auto;
+	/* height: 400px; */
+	width: 700px;
+	max-height: 400px;
+}
+
+#AdminEventListHeader{
+	margin-top: 100px;
+	width: 200px;
+	right: 553px;
+	text-decoration: underline;
+}
+
+#EventAddForm{
+	float: right;
+	position: relative;
+	right: 250px;
+}
+
+#OverallStatsTable{
+	display: inline-block;
+	/* margin-top: 10px; */
+	border-collapse: collapse;
+	border: 1px solid black;
+	overflow: auto;
+	/* height: 200px; */
+	width: 333px;
+	max-height: 400px;
+}
+
+.TableContents {
+	min-width: 150px;
+	padding: 10px;
+  	text-align: left;
+}
+
+.TableContents:hover {
+	background-color: #f5f5f5;
+}
+
+.TableButtonCell {
+	min-width: 100px;
+	padding: 10px;
+}
+
+.TableButton {
+	width: 96px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	border-radius: 8px;
+    background-color: #555555;
+	color:white;
+}
+
+.TableButton:hover {
+	background-color: white;
+	color: black;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+#PageHeader {
+	/*
+	position: relative;
+	top: 50px;
+	right: 25px;
+	*/
+}
+
+#AdminId {
+	color: #e880d3;
+}

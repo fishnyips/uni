@@ -1,0 +1,56 @@
+/* changes */
+.edithiddenlibrarydiv {
+    text-align: center;
+    float: right;
+    position: relative;
+    right: 50px;
+    width: 50%;
+}
+.editphotolibrarydiv {
+    text-align: center;
+    float: right;
+    position: relative;
+    right: 50px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.editprofilepicturediv {
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#editcurrentprofilepic {
+    position: relative;
+    margin-bottom: 2%;
+    border-radius: 50%;
+	height: 250px;
+	width: 200px;
+}
+
+#editprofilepictureheader {
+    position: relative;
+}
+
+#profileinputdiv {
+    float: left;
+    width: 575px;
+    height: 500px;
+    margin-left: 2%;
+    margin-top: 10px;
+}
+
+#submitbutton {
+    padding: 6px 23px;
+    background: #3f4257;
+    border-radius: 30px;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 10px 0;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
