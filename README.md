@@ -1,68 +1,66 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Team 22 - UNI React Project
+Members: Chris On, Crystal Yip, Wilson Wei-Sheng Hsu, Victor Huang
 
-## Available Scripts
+# Instructions to run
+Clone the repository. Using the terminal, cd into the directory folder. Then do the following:
+1. Run `npm install`
+2. Run `npm start`
+3. A page should automatically open; however, if it does not, you can open the web application manually on the browser
+   and access our entry point using the following URL `localhost:3000`
 
-In the project directory, you can run:
+# Our Views
+We currently have 8 different views associated with our web application UNI. Each view can be accessed from any page using the navigation bar. 
 
-### `npm start`
+Steps to Reach Each View
+Note: Other than the Login View, you must log in to reach other pages(cannot manually access through typing in the url)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Login View: `localhost:3000`
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+2. Admin View: Logging in using admin credentials, if already logged in, 
+               you can access this view through the `Admin` button in the side navigation bar
+			   
+3. Home View: Logging in using user credentials defaults to this page, if already logged in,
+			  you can access this view through the `Making Connections` button in the side navigation bar
+			  
+4. Profile View: Click on the `Profile` button of the top navigation bar
 
-### `npm test`
+5. Profile Editing View: Click on the `Settings` button of the side navigation bar,
+					     or if you are on the Profile View, you can click the `Edit Profile` button
+						 
+6. Events View: Click on the first event in the Events List View
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+7. Events List View: Click on the `Events` button either on the top or the side navigation bar
 
-### `npm run build`
+8. Connections View: Click on the `Connections` button on the side navigation bar
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# User Instructions
+The user credentials is as follows:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+username: `user`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+password: `user`
 
-### `npm run eject`
+For a standard user:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. After logging in, they will be at the Home view, where you see potential connections. You can click on them for more information and either accept or reject them.
+2. They can access their profile and make edits to it by clicking the `Profile` button on the navigation bar on the top of the window
+3. They can access the event list and click on them for more information
+4. They can view their connections by clicking on the `Connections` button on the side navigation bar
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Admin Instructions
+The user credentials is as follows:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+username: `admin`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+password: `admin`
 
-## Learn More
+For an admin:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. After logging in, they will be at the Admin View, where the can add/remove users and events and see statistics for the webapp
+2. Admins have the `Admin` button in the side navigation bar while standard users do not
+3. They can access all pages that a standard user can
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# Event Instructions
+You can find a list of all upcoming events by clicking the `Events` button on the Navigation bar on top of the window. 
+Even though there are many events shown on list, but only the first two event are linked to an existing event page. By clicking on the event, you will be taken to the existing event page.
+Inside event page you will find more information regarding the event, (Name, Host Profile, Cover Photo, Description, Location, Attendees) The Host profile image is linked to the existing profile page for that host. For names in `Attendees` table, only the first one is linked to an existing profile page for demonstration purpose. 
